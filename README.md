@@ -1,5 +1,3 @@
-Absolutely! Here’s a professional README for your Neurotask project, tailored for a DSA (Data Structures & Algorithms) audience, with a clear explanation, relevant example, and a breakdown of how the system works.
-
 ---
 
 # Neurotask: Intelligent File Organizer
@@ -78,25 +76,6 @@ project/
 
 ## 🛠️ How It Works
 
-### Architecture Overview
-
-```mermaid
-flowchart TD
-    A[User] -->|CLI/GUI| B[main.py]
-    B --> C{Mode}
-    C -->|GUI| D[neurotask_ui.py]
-    C -->|CLI| E[organizer modules]
-    E --> F[extension_based.py]
-    E --> G[timeline_based.py]
-    E --> H[semantic_based.py]
-    E --> I[intent_based.py]
-    D --> J[Voice Assistant (optional)]
-    E --> K[file_manager]
-    K --> L[reader.py]
-    K --> M[mover.py]
-    B --> N[utils/logger.py]
-```
-
 ### Main Flow
 
 1. **Entry Point:**  
@@ -162,11 +141,6 @@ Want to add a new organization strategy?
 
 ---
 
-## 📝 License
-
-MIT License. See [LICENSE](LICENSE) for details.
-
----
 
 ## 💡 Contributing
 
@@ -183,5 +157,3 @@ Open an issue or contact the maintainer.
 **Neurotask: Organize smarter, not harder.**
 
 ---
-
-Would you like this README saved to your project? If so, what filename would you prefer (e.g., `README.md`)?
